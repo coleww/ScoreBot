@@ -88,7 +88,7 @@ ScoreBot.prototype = {
 			points = 'no';
 		}
 
-		this.say(name + ' has ' + points + ' bumbum' + (points === '1.000' ? '' : 's'));
+		this.say(name.split("").join(" ") + ' has ' + points + ' bumbum' + (points === '1.000' ? '' : 's'));
 	},
 
 	listScores: function () {
